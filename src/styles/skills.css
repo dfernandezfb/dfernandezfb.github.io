@@ -1,0 +1,12 @@
+.dev-icons{
+    font-size: 3rem;
+    list-style: none;
+    display:flex;
+    flex-wrap: wrap;
+}
+.dev-icon{
+    margin-right: 1.5rem;
+}
+.u-list{
+    list-style: none;
+}

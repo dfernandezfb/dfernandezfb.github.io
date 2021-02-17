@@ -1,0 +1,9 @@
+.main-container{
+    display:flex;
+    height: 100vh;
+}
+@media (max-width:992px){
+    .main-container{
+        display:block
+    }
+}
