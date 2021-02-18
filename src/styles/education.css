@@ -18,7 +18,7 @@ h3{
     font-family: 'Saira Extra Condensed',sans-serif;
     font-weight: 700;
     font-size: 2rem;
-    color: #343a40;
+    color: #343a40 !important;
 }
 .text-primary{
     color:#0e3658 !important;

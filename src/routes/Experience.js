@@ -1,5 +1,6 @@
 import {useContext} from 'react'
 import {LanguageContext} from './../context/LanguageContext'
+import './../styles/experience.css'
 
 const Experience = () => {
     const {language} = useContext(LanguageContext)
@@ -25,11 +26,19 @@ const Experience = () => {
                 <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div className="flex-grow-1">
                         <h3 className="mb-0">{language==='en'?'Small projects':'Proyectos pequeños'}</h3>
-                        <div className="subheading mb-3">URL de los proyectos</div>
-                        <div>· {language==='en'?'Calculator (React)':'Calculadora (React)'}</div>
-                        <div>· {language==='en'?'Login & register with authentication (MERN stack)':'Registro e ingreso con autenticación (MERN stack)'}</div>
-                        <div>· Simpson's API (Node JS)</div>
-                        <div>· {language==='en'?'This resume':'Este resumén'}</div>
+                        <a href='#' target='_blank'className="subheading mb-3 portfolio">{language==='en'?'Personal Portfolio':'Portafolio personal'}</a>
+                        <div className='d-lg-flex'>
+                            <div className='mr-4'>
+                                <div>· {language==='en'?'Calculator (React)':'Calculadora (React)'}</div>
+                                <div>· {language==='en'?'Login & register with authentication (MERN stack)':'Registro e ingreso con autenticación (MERN stack)'}</div>
+                                <div>· Simpson's API (Node JS)</div>
+                                <div>· {language==='en'?'This resume':'Este resumén'}</div>
+                            </div> 
+                            <div>
+                                <div>· {language==='en'?'Friends party (React)':'Juntada de amigos (React)'}</div>
+                                <div>· {language==='en'?'Others':'Otros'}</div>
+                            </div> 
+                        </div>
                     </div>
                 </div>
             </div>
