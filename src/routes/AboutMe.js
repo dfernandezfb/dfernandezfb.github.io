@@ -19,7 +19,7 @@ const AboutMe = () => {
             <p className='description'>
                 {language==='en'? 'I consider myself a self-demanding, persevering and organized person, willing to improve myself professionally. I am active and in a good spirits, easy to adapt to groups and situations. 25 years old. Single.' : 'Me considero una persona autoexigente, perseverante y organizada, dispuesto a perfeccionarme profesionalmente. Activo con buen ánimo, de fácil adaptacion a grupos y situaciones. 25 años. Soltero'}</p>
             <div className="social-icons">
-                <a className="social-icon" href="www.linkedin.com/in/dfernandezfb"><FaLinkedinIn/></a>
+                <a className="social-icon" href="https://www.linkedin.com/in/dfernandezfb"><FaLinkedinIn/></a>
                 <a className="social-icon" href="https://github.com/dfernandezfb"><AiFillGithub/></a>
                 <a className="social-icon" href="https://www.facebook.com/dgfernandezfb/"><FaFacebookF/></a>
             </div>
