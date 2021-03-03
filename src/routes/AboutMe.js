@@ -19,9 +19,9 @@ const AboutMe = () => {
             <p className='description'>
                 {language==='en'? 'I consider myself an organized, persevering and self-demanding person. My goals are to finish my degree, improve myself professionally in the software development field and one day aply both. I am active, sociable, and easy to adapt to groups and situations. 25 years old. Single ' : 'Me considero una persona organizada, perseverante y autoexigente. Mis metas son terminar mi carrera, perfeccionarme profesionalmente en el campo del desarrollo de software, y algún dia aplicar ambas. Activo, sociable, y de fácil adaptacion a grupos y situaciones. 25 años. Soltero'}</p>
             <div className="social-icons">
-                <a className="social-icon" href="https://www.linkedin.com/in/dfernandezfb"><FaLinkedinIn/></a>
-                <a className="social-icon" href="https://github.com/dfernandezfb"><AiFillGithub/></a>
-                <a className="social-icon" href="https://www.facebook.com/dgfernandezfb/"><FaFacebookF/></a>
+                <a className="social-icon" target='_blank' href="https://www.linkedin.com/in/dfernandezfb"><FaLinkedinIn/></a>
+                <a className="social-icon" target='_blank' href="https://github.com/dfernandezfb"><AiFillGithub/></a>
+                <a className="social-icon" target='_blank' href="https://www.facebook.com/dgfernandezfb/"><FaFacebookF/></a>
             </div>
         </div>
     )

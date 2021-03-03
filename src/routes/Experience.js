@@ -26,7 +26,7 @@ const Experience = () => {
                 <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div className="flex-grow-1">
                         <h3 className="mb-0">{language==='en'?'Small projects':'Proyectos pequeños'}</h3>
-                        <a href='#' target='_blank'className="subheading mb-3 portfolio">{language==='en'?'Personal Portfolio':'Portafolio personal'}</a>
+                        <a href='#' target='_blank'className="subheading mb-3 portfolio">{language==='en'?'Personal Portfolio in progress':'Portafolio personal en desarrollo'}</a>
                         <div className='d-lg-flex'>
                             <div className='mr-4'>
                                 <div>· {language==='en'?'Calculator (React)':'Calculadora (React)'}</div>
