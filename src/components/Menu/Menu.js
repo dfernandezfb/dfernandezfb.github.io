@@ -48,7 +48,7 @@ const Menu = () => {
                     <Link to='/education' className='item'>Education</Link>
                     <Link to='/experience' className='item'>Experience</Link>
                     <Link to='/skills' className='item'>Skills</Link>
-                    <a href='https://drive.google.com/file/d/1nZc2rNO5709bzBIkfO4mFHvAMzBswEj-/view?usp=sharing' className='item' target='_blank'>PDF version</a>
+                    <a href='https://drive.google.com/file/d/1dCJ7WyhereiwH0dPAWRpcBvSdgfU0ROm/view?usp=sharing' className='item' target='_blank'>PDF version</a>
                 </>
                 :
                 <>
@@ -56,7 +56,7 @@ const Menu = () => {
                     <Link to='/education' className='item'>Educación</Link>
                     <Link to='/experience' className='item'>Experiencia</Link>
                     <Link to='/skills' className='item'>Habilidades</Link>
-                    <a href='https://drive.google.com/file/d/1S1taZ_p6ESA-ol7LgWBWC3ty_s-HrDfh/view?usp=sharing' className='item' target='_blank'>Versión en PDF</a>
+                    <a href='https://drive.google.com/file/d/1fyujX_Zy2EU3BPdBK9fARA-OVZywZW1o/view?usp=sharing' className='item' target='_blank'>Versión en PDF</a>
                 </>
                 }
                 <div className='d-inline'>
