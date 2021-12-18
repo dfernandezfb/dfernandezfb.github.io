@@ -6,12 +6,20 @@ const Experience = () => {
     const {language} = useContext(LanguageContext)
     return (
             <div className='box-container mt-3 mb-0 pr-3'>
-                <h2 className='seccion-title mb-5'>{language==='en'?'Experience':'Experiencia'}</h2>
+                <h2 className='seccion-title mb-3'>{language==='en'?'Experience':'Experiencia'}</h2>
                 <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div className="flex-grow-1">
                         <h3 className="mb-0">{language==='en'?'Full stack developer':'Desarrollador Full Stack'}</h3>
                         <div className="subheading mb-2">PIXELADAS.ES</div>
                         <div>{language==='en'?"API's and Backend development in Node JS, and frontend app's development in React and Angular. Reference: Daniel Infante Muñoz ":' Desarrollo de Backends y APIs en Node JS, y de aplicaciones de Frontend en React JS y en Angular. Referencia: Daniel Infante Muñoz'}</div>
+                    </div>
+                    <div className="flex-shrink-0"><span className="text-primary">2021 - {language==='en'?'present':'presente'}</span></div>
+                </div>
+                <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div className="flex-grow-1">
+                        <h3 className="mb-0">{language==='en'?'Full stack Mentor':'Mentor Full Stack'}</h3>
+                        <div className="subheading mb-2">Rolling Code School</div>
+                        <div>{language==='en'?'In charge of the teaching of the course "Fullstack Development", where some technologies that make up the frontend (HTML, CSS, Javscript, Bootstrap, React, among others) are taught, and also some that make up the backend (Node JS, Mongo DB , Express, among others)':' A cargo del dictado de clases del curso "Desarrollo Fullstack", donde se enseñan algunas tecnologías que componen al frontend (HTML,CSS,Javscript, Bootstrap, React, entre otras), y también algunas que componen al backend (Node JS, Mongo DB, Express, entre otras)'}</div>
                     </div>
                     <div className="flex-shrink-0"><span className="text-primary">2021 - {language==='en'?'present':'presente'}</span></div>
                 </div>
@@ -33,16 +41,19 @@ const Experience = () => {
                 </div>
                 <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div className="flex-grow-1">
-                        <h3 className="mb-0">{language==='en'?'Small projects':'Proyectos pequeños'}</h3>
-                        <a href='#' target='_blank'className="subheading mb-3 portfolio">{language==='en'?'Personal Portfolio in progress':'Portafolio personal en desarrollo'}</a>
+                        <h3 className="mb-0">{language==='en'?'Personal projects':'Proyectos personales'}</h3>
+                        {/* <a href='#' target='_blank'className="subheading mb-3 portfolio">{language==='en'?'Personal Portfolio in progress':'Portafolio personal en desarrollo'}</a> */}
+                        <h4 className="subheading mb-3 portfolio">{language==='en'?'Personal Portfolio in progress':'Portafolio personal en desarrollo'}</h4>
                         <div className='d-lg-flex'>
                             <div className='mr-4'>
                                 <div>· {language==='en'?'Calculator (React)':'Calculadora (React)'}</div>
-                                <div>· {language==='en'?'Nutrition web app (MERN stack)':'Aplicación web de nutrición (MERN stack)'}</div>
+                                <div>· {language==='en'?<>Nutrition web app (MERN stack) - <a href="https://teacheatnutrition.com/" target='_blank' rel='no referrer' className="text-decoration-none text-info">Teach eat</a></>:<>Aplicación web de nutrición (MERN stack)- <a href="https://teacheatnutrition.com/" target='_blank' rel='no referrer' className='text-decoration-none text-info'>Teach eat</a></>}</div>
                                 <div>· Simpson's API (Node JS)</div>
                                 <div>· {language==='en'?'This resume':'Este resumén'}</div>
                             </div> 
                             <div>
+                                <div>· {language==='en'?<> Bioengineering conference information page (React) - <a href="https://www.cesabi.com.ar/#/" target='_blank' rel='no referrer' className="text-decoration-none text-info">CESABI</a></>:<>Página informativa de congreso de bioingeniería (React) - <a href="https://www.cesabi.com.ar/#/" target='_blank' rel='no referrer' className='text-decoration-none text-info'>CESABI</a></>}</div>
+                                <div>· {language==='en'?'Movies page (Javascript)':'Página de películas (Javascript)'}</div>
                                 <div>· {language==='en'?'Friends party (React)':'Juntada de amigos (React)'}</div>
                                 <div>· {language==='en'?'Others':'Otros'}</div>
                             </div> 

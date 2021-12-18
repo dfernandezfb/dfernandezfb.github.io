@@ -12,9 +12,11 @@ import {
     FaCheck,
     FaAngular,
     FaBitbucket,
-    FaJira
+    FaJira,
+    FaWordpress
 } from 'react-icons/fa'
 import {DiMongodb} from 'react-icons/di'
+import {SiPlesk} from 'react-icons/si'
 import './../styles/skills.css'
 import { LanguageContext } from '../context/LanguageContext'
 
@@ -33,6 +35,8 @@ const Skills = () => {
                 <li className='dev-icon d-flex flex-column align-items-center'><FaAngular/><span className='dev-icon-name'>ANGULAR</span></li>
                 <li className='dev-icon d-flex flex-column align-items-center'><FaNodeJs/><span className='dev-icon-name'>NODE JS</span></li>
                 <li className='dev-icon d-flex flex-column align-items-center'><DiMongodb/><span className='dev-icon-name'>MONGO DB</span></li>
+                <li className='dev-icon d-flex flex-column align-items-center'><FaWordpress/><span className='dev-icon-name'>WORDPRESS</span></li>
+                <li className='dev-icon d-flex flex-column align-items-center'><SiPlesk/><span className='dev-icon-name'>PLESK</span></li>
                 <li className='dev-icon d-flex flex-column align-items-center'><FaGit/><span className='dev-icon-name'>GIT</span></li>
                 <li className='dev-icon d-flex flex-column align-items-center'><FaGithub/><span className='dev-icon-name'>GITHUB</span></li>
                 <li className='dev-icon d-flex flex-column align-items-center'><FaBitbucket/><span className='dev-icon-name'>BIT BUCKET</span></li>
