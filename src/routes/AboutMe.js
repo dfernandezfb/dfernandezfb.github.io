@@ -17,7 +17,7 @@ const AboutMe = () => {
             </div>
             <div className='contact-data'>Barrio Policial IV · San Miguel de Tucumán, Tucumán CP 4000 · +549 3815934976 · <a className='important' href='mailto:dfernandezfb@gmail.com'>dfernandezfb@gmail.com</a></div>
             <p className='description'>
-                {language==='en'? 'I consider myself an organized, persevering and self-demanding person. My goals are to finish my degree, improve myself professionally in the software development field and one day aply both. I am active, sociable, and easy to adapt to groups and situations. 25 years old.' : 'Me considero una persona organizada, perseverante y autoexigente. Mis metas son terminar mi carrera, perfeccionarme profesionalmente en el campo del desarrollo de software, y algún dia aplicar ambas. Activo, sociable, y de fácil adaptacion a grupos y situaciones. 26 años.'}</p>
+                {language==='en'? 'I consider myself an organized, persevering and self-demanding person. My goals are to finish my degree, improve myself professionally in the software development field and one day aply both. I am active, sociable, and easy to adapt to groups and situations. 26 years old.' : 'Me considero una persona organizada, perseverante y autoexigente. Mis metas son terminar mi carrera, perfeccionarme profesionalmente en el campo del desarrollo de software, y algún dia aplicar ambas. Activo, sociable, y de fácil adaptacion a grupos y situaciones. 26 años.'}</p>
             <div className="social-icons">
                 <a className="social-icon" target='_blank' href="https://www.linkedin.com/in/dfernandezfb"><FaLinkedinIn/></a>
                 <a className="social-icon" target='_blank' href="https://github.com/dfernandezfb"><AiFillGithub/></a>
