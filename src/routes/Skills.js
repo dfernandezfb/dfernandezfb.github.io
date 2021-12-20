@@ -25,7 +25,7 @@ const Skills = () => {
     return (
         <div className='box-container mt-3 mb-0 pr-3'>
             <h2 className='seccion-title mb-5'>{language==='en'?'Skills':'Habilidades'}</h2>
-            <div className="subheading mb-2">{language==='en'?'Programming languages & tools':'Lenguajes de programación y herramientas'}</div>
+            <div className="subheading mb-2">{language==='en'?'Programming languages & tools':'Lenguajes de programación y herramientas '}</div>
             <ul className='dev-icons pl-4'>
                 <li className='dev-icon d-flex flex-column align-items-center'><FaHtml5/> <span className='dev-icon-name'>HTML 5</span></li>
                 <li className='dev-icon d-flex flex-column align-items-center'><FaCss3Alt/><span className='dev-icon-name'>CSS 3</span></li>
