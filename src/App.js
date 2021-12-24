@@ -1,5 +1,4 @@
-import logo from './logo.svg';
-import { BrowserRouter as Router, Switch, Route} from 'react-router-dom'
+import { HashRouter as Router, Switch, Route} from 'react-router-dom'
 // import { TransitionGroup, CSSTransition } from "react-transition-group";
 import './App.css';
 import AboutMe from './routes/AboutMe'
