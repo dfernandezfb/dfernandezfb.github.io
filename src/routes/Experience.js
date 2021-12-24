@@ -39,7 +39,7 @@ const Experience = () => {
                     </div>
                     <div className="flex-shrink-0"><span className="text-primary">2020</span></div>
                 </div>
-                <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
+                <div className="d-flex flex-column flex-md-row justify-content-between pb-5">
                     <div className="flex-grow-1">
                         <h3 className="mb-0">{language==='en'?'Personal projects':'Proyectos personales'}</h3>
                         {/* <a href='#' target='_blank'className="subheading mb-3 portfolio">{language==='en'?'Personal Portfolio in progress':'Portafolio personal en desarrollo'}</a> */}

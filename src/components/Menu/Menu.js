@@ -27,6 +27,10 @@ const Menu = () => {
         activeEN='';
         activeES='active';
     }
+    const handleMenu = () =>{
+        document.querySelector('#menu').classList.remove('show');
+        document.querySelector('.navbar-toggler').classList.add('collapsed');
+    }
     return (
         <Navbar className='menu' expand='lg' variant='dark'>
             <Navbar.Toggle aria-controls='menu'/>
@@ -44,18 +48,18 @@ const Menu = () => {
             <div className='menu-items'>
                 {language==='en'?
                 <>
-                    <Link to='/' className='item'>About me</Link>
-                    <Link to='/education' className='item'>Education</Link>
-                    <Link to='/experience' className='item'>Experience</Link>
-                    <Link to='/skills' className='item'>Skills</Link>
+                    <Link to='/' className='item' onClick={handleMenu}>About me</Link>
+                    <Link to='/education' className='item' onClick={handleMenu}>Education</Link>
+                    <Link to='/experience' className='item' onClick={handleMenu}>Experience</Link>
+                    <Link to='/skills' className='item' onClick={handleMenu}>Skills</Link>
                     <a href='https://drive.google.com/file/d/1dCJ7WyhereiwH0dPAWRpcBvSdgfU0ROm/view?usp=sharing' className='item' target='_blank'>PDF version</a>
                 </>
                 :
                 <>
-                    <Link to='/' className='item'>Sobre mí</Link>
-                    <Link to='/education' className='item'>Educación</Link>
-                    <Link to='/experience' className='item'>Experiencia</Link>
-                    <Link to='/skills' className='item'>Habilidades</Link>
+                    <Link to='/' className='item' onClick={handleMenu}>Sobre mí</Link>
+                    <Link to='/education' className='item' onClick={handleMenu}>Educación</Link>
+                    <Link to='/experience' className='item' onClick={handleMenu}>Experiencia</Link>
+                    <Link to='/skills' className='item' onClick={handleMenu}>Habilidades</Link>
                     <a href='https://drive.google.com/file/d/1fyujX_Zy2EU3BPdBK9fARA-OVZywZW1o/view?usp=sharing' className='item' target='_blank'>Versión en PDF</a>
                 </>
                 }

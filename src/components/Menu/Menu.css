@@ -1,6 +1,6 @@
 .menu{
     width: 20vw;
-    height: 100vh;
+    min-height: 100vh;
     background-color: #0e3658;
     display: flex;
     justify-content: center;
@@ -59,7 +59,8 @@ font-family: 'Saira Extra Condensed', sans-serif; */
     }
     .menu{
         width: 100vw;
-        height: auto;
+        min-height: 0;
         display:block;
+        margin: 0;
     }
 }

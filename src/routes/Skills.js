@@ -54,8 +54,8 @@ const Skills = () => {
                 <li className=''><FaCheck/> {language==='en'?'English (intermediate)':'Ingles (intermedio)'}</li>
             </ul>
             <div className="subheading mb-2">{language==='en'?'Other skills':'Otras habilidades'}</div>
-            <ul className='u-list'>
-                <li className=''><FaCheck/> {language==='en'?'C Programming (microcontroled systems)':'Programación en C (sistemas microcontrolados)'}</li>
+            <ul className='u-list mb-0 pb-2'>
+                <li className=''><FaCheck/> {language==='en'?'C Programming (microcontrolled systems)':'Programación en C (sistemas microcontrolados)'}</li>
                 <li className=''><FaCheck/> {language==='en'?'Matlab (data analysis & signal processing)':'Matlab (analisis de datos y procesamiento de señales)'}</li>
                 <li className=''><FaCheck/> Microsoft Office</li>
             </ul>

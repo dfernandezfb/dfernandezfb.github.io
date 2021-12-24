@@ -29,7 +29,7 @@ const Education = () => {
                 </div>
                 <div className="flex-shrink-0"><span className="text-primary">2020</span></div>
             </div>
-            <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div className="d-flex flex-column flex-md-row justify-content-between pb-5">
                 <div className="flex-grow-1">
                     <h3 className="mb-0">Arkmeds - Soluções para Engenharia Clínica</h3>
                     <div className="subheading mb-3">{language === 'en' ? 'Course: "Nociones de mantenimiento del ventilador pulmonar"' : 'Curso: "Nociones de mantenimiento del ventilador pulmonar"'}</div>
