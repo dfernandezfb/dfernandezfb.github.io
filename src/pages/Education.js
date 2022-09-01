@@ -11,7 +11,7 @@ const Education = () => {
                 <div className="flex-grow-1">
                     <h3 className="mb-0">Facultad de Ciencias Exactas y Tecnología · UNT</h3>
                     <div className="subheading mb-2">{language === 'en' ? 'Biomedical Engineering' : 'Ingeniería Biomédica'}</div>
-                    <div>{language === 'en' ? 'Advanced student. Expected graduation: 2022' : 'Estudiante avanzado. Cursado completo. Perspectiva de graduación: 2022'}</div>
+                    <div>{language === 'en' ? 'Advanced student. Expected graduation: december 2022' : 'Estudiante avanzado. Cursado completo. Perspectiva de graduación: diciembre 2022'}</div>
                 </div>
                 <div className="flex-shrink-0"><span className="text-primary">{language === 'en' ? '2014-present' : '2014-presente'}</span></div>
             </div>

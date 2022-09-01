@@ -1,11 +1,11 @@
 import { HashRouter as Router, Switch, Route} from 'react-router-dom'
 // import { TransitionGroup, CSSTransition } from "react-transition-group";
 import './App.css';
-import AboutMe from './routes/AboutMe'
-import Education from './routes/Education'
+import AboutMe from './pages/AboutMe'
+import Education from './pages/Education'
 import Menu from './components/Menu/Menu';
-import Experience from './routes/Experience';
-import Skills from './routes/Skills';
+import Experience from './pages/Experience';
+import Skills from './pages/Skills';
 import LanguageProvider from './context/LanguageContext';
 
 function App() {

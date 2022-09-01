@@ -2,10 +2,12 @@
     display:flex;
     min-height: 100vh;
     background-color: #e9e8e5;
+    max-height: 100vh;
 }
 @media (max-width:992px){
     .main-container{
         display:block;
         margin:0;
+        max-height: none;
     }
 }

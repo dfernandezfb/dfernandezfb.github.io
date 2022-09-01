@@ -4,3 +4,17 @@
 .portfolio:hover{
     text-decoration: none;
 }
+@media screen and (min-width:992px){
+    .box-container-large{
+        overflow-y: scroll;
+    }
+    .box-container-large::-webkit-scrollbar{
+        background-color: #e9e8e5;
+        width: 10px;
+    }
+    .box-container-large::-webkit-scrollbar-thumb{
+        background-color: #0e3658;
+        border-radius: .5rem;
+        width: 10px;
+    }
+}

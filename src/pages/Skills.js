@@ -13,10 +13,11 @@ import {
     FaAngular,
     FaBitbucket,
     FaJira,
-    FaWordpress
+    FaWordpress,
+    FaPhp
 } from 'react-icons/fa'
 import {DiMongodb} from 'react-icons/di'
-import {SiPlesk} from 'react-icons/si'
+import {SiPlesk, SiFirebase} from 'react-icons/si'
 import './../styles/skills.css'
 import { LanguageContext } from '../context/LanguageContext'
 
@@ -30,11 +31,13 @@ const Skills = () => {
                 <li className='dev-icon d-flex flex-column align-items-center'><FaHtml5/> <span className='dev-icon-name'>HTML 5</span></li>
                 <li className='dev-icon d-flex flex-column align-items-center'><FaCss3Alt/><span className='dev-icon-name'>CSS 3</span></li>
                 <li className='dev-icon d-flex flex-column align-items-center'><FaJsSquare/><span className='dev-icon-name'>JAVASCRIPT</span></li>
+                <li className='dev-icon d-flex flex-column align-items-center'><FaPhp/><span className='dev-icon-name'> PHP</span></li>
                 <li className='dev-icon d-flex flex-column align-items-center'><FaBootstrap/><span className='dev-icon-name'>BOOTSTRAP</span></li>
                 <li className='dev-icon d-flex flex-column align-items-center'><FaReact/><span className='dev-icon-name'>REACT JS</span></li>
                 <li className='dev-icon d-flex flex-column align-items-center'><FaAngular/><span className='dev-icon-name'>ANGULAR</span></li>
                 <li className='dev-icon d-flex flex-column align-items-center'><FaNodeJs/><span className='dev-icon-name'>NODE JS</span></li>
                 <li className='dev-icon d-flex flex-column align-items-center'><DiMongodb/><span className='dev-icon-name'>MONGO DB</span></li>
+                <li className='dev-icon d-flex flex-column align-items-center'><SiFirebase/><span className='dev-icon-name'>FIREBASE</span></li>
                 <li className='dev-icon d-flex flex-column align-items-center'><FaWordpress/><span className='dev-icon-name'>WORDPRESS</span></li>
                 <li className='dev-icon d-flex flex-column align-items-center'><SiPlesk/><span className='dev-icon-name'>PLESK</span></li>
                 <li className='dev-icon d-flex flex-column align-items-center'><FaGit/><span className='dev-icon-name'>GIT</span></li>

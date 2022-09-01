@@ -1,11 +1,11 @@
 .menu{
     width: 20vw;
-    min-height: 100vh;
     background-color: #0e3658;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column !important;
+    max-height: 100vh;
 }
 /* font-family: 'Mulish', sans-serif;
 font-family: 'Saira Extra Condensed', sans-serif; */

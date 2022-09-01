@@ -5,13 +5,21 @@ import './../styles/experience.css'
 const Experience = () => {
     const {language} = useContext(LanguageContext)
     return (
-            <div className='box-container mt-3 mb-0 pr-3'>
+            <div className='box-container box-container-large mt-3 mb-0 pr-3'>
                 <h2 className='seccion-title mb-3'>{language==='en'?'Experience':'Experiencia'}</h2>
                 <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div className="flex-grow-1">
-                        <h3 className="mb-0">{language==='en'?'Full stack developer':'Desarrollador Full Stack'}</h3>
+                        <h3 className="mb-0">{language==='en'?'Software development':'Desarrollo de software'}</h3>
+                        <div className="subheading mb-2">ROLLING CODE STUDIO</div>
+                        <div>{language==='en'?"Backend development in Node JS, and frontend app's development in React":' Desarrollo de Backends en Node JS, y de aplicaciones de Frontend en React JS'}</div>
+                    </div>
+                    <div className="flex-shrink-0"><span className="text-primary">2022 - {language==='en'?'present':'presente'}</span></div>
+                </div>
+                <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div className="flex-grow-1">
+                        <h3 className="mb-0">{language==='en'?'IT services':'Servicios IT'}</h3>
                         <div className="subheading mb-2">PIXELADAS.ES</div>
-                        <div>{language==='en'?"API's and Backend development in Node JS, and frontend app's development in React and Angular. Reference: Daniel Infante Muñoz ":' Desarrollo de Backends y APIs en Node JS, y de aplicaciones de Frontend en React JS y en Angular. Referencia: Daniel Infante Muñoz'}</div>
+                        <div>{language==='en'?"API's and Backend development in Node JS, and frontend app's development in React and Angular. Wordpress and PHP development. SEO positioning. Servers management. Reference: Daniel Infante Muñoz ":' Desarrollo de Backends y APIs en Node JS, y de aplicaciones de Frontend en React JS y en Angular. Desarrollos en PHP y Wordpress. Posicionamiento SEO. Administración de servidores. Referencia: Daniel Infante Muñoz'}</div>
                     </div>
                     <div className="flex-shrink-0"><span className="text-primary">2021 - {language==='en'?'present':'presente'}</span></div>
                 </div>
@@ -29,7 +37,7 @@ const Experience = () => {
                         <div className="subheading mb-2">Facultad de Ciencias Exactas y Tecnología · UNT · {language==='en'?'Chair: "Electrónica I':' Cátedra: "Electrónica I"'}</div>
                         <div>{language==='en'?'In charge of giving classes in the electronics laboratory, where the practical application of the subject is taught ':' A cargo del dictado de clases en el laboratorio de electrónica, donde se enseña la aplicación práctica de la materia.'}</div>
                     </div>
-                    <div className="flex-shrink-0"><span className="text-primary">2019 - {language==='en'?'present':'presente'}</span></div>
+                    <div className="flex-shrink-0"><span className="text-primary">2019 - 2022</span></div>
                 </div>
                 <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div className="flex-grow-1">
@@ -41,9 +49,9 @@ const Experience = () => {
                 </div>
                 <div className="d-flex flex-column flex-md-row justify-content-between pb-5">
                     <div className="flex-grow-1">
-                        <h3 className="mb-0">{language==='en'?'Personal projects':'Proyectos personales'}</h3>
+                        <h3 className="mb-0">{language==='en'?'Freelance and personal projects':'Proyectos freelance y personales'}</h3>
                         {/* <a href='#' target='_blank'className="subheading mb-3 portfolio">{language==='en'?'Personal Portfolio in progress':'Portafolio personal en desarrollo'}</a> */}
-                        <h4 className="subheading mb-3 portfolio">{language==='en'?'Personal Portfolio in progress':'Portafolio personal en desarrollo'}</h4>
+                        <a href='https://github.com/dfernandezfb'><h4 className="subheading mb-3 portfolio">{language==='en'?'See my github profile':'Dale un vistazo a mi perfil de github'}</h4></a>
                         <div className='d-lg-flex'>
                             <div className='mr-4'>
                                 <div>· {language==='en'?'Calculator (React)':'Calculadora (React)'}</div>
