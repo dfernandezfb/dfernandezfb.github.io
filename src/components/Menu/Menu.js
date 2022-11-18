@@ -52,7 +52,7 @@ const Menu = () => {
                     <Link to='/education' className='item' onClick={handleMenu}>Education</Link>
                     <Link to='/experience' className='item' onClick={handleMenu}>Experience</Link>
                     <Link to='/skills' className='item' onClick={handleMenu}>Skills</Link>
-                    <a href='https://drive.google.com/file/d/10X2W13sHwZzIyuBCbxGOXLDXtLVu6iVX/view' className='item' target='_blank'>PDF version</a>
+                    <a href='https://drive.google.com/file/d/1VQFucz0_vHJuo4h6t3cj79-RD7zwUTIy/view?usp=sharing' className='item' target='_blank'>PDF version</a>
                 </>
                 :
                 <>
@@ -60,7 +60,7 @@ const Menu = () => {
                     <Link to='/education' className='item' onClick={handleMenu}>Educación</Link>
                     <Link to='/experience' className='item' onClick={handleMenu}>Experiencia</Link>
                     <Link to='/skills' className='item' onClick={handleMenu}>Habilidades</Link>
-                    <a href='https://drive.google.com/file/d/10X2W13sHwZzIyuBCbxGOXLDXtLVu6iVX/view' className='item' target='_blank'>Versión en PDF</a>
+                    <a href='https://drive.google.com/file/d/1H5OSrPK3xNla0gVrzSZ0bm50zs0-8PfT/view?usp=sharing' className='item' target='_blank'>Versión en PDF</a>
                 </>
                 }
                 <div className='d-inline'>
